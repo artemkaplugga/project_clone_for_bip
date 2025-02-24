@@ -1,0 +1,40 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__logo {
+    display: flex;
+}
+
+.header__logo__img {
+    margin-right: 6px;
+}
+
+.logo {
+    font-weight: 700;
+    font-size: 20px;
+    margin-right: 72px;
+}
+
+.header__nav {
+    display: flex;
+    gap: 36px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #2E476B;
+}
+
+.book__now{
+    color: #F66F4D;
+    display: flex;
+    margin-left: auto; 
+    margin-right: 135px;
+    gap: 6px;
+    align-items: center;
+    padding: 19px 34px;
+    border: 2px solid #F66F4D;
+    border-radius: 27px;
+}
