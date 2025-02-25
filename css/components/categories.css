@@ -30,6 +30,11 @@
 
 
 }
+.img__and__btn:hover{
+    filter: brightness(50%);
+}
+
+
 
 .img__categories button img{
     transition: transform 0.2s ease-in-out;
@@ -54,10 +59,8 @@
     font-size: 26px;
     font-weight: 500;
     padding-top: 18px;
-    
-    justify-content: center;
     padding-bottom: 20px;
-    margin-right: 215px;
+
 
 }
 
@@ -68,4 +71,13 @@
 .categories__item:hover{
     transition: 0.2s ease;
     
+}
+
+.visit__btn{
+    position: absolute;
+    color:white;
+    font-size: 20px;
+    top: 104px;
+    left: 57px;
+    right: 57px;
 }
