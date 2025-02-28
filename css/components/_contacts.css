@@ -41,9 +41,7 @@
 }
 
 
-.logo__information {
-    margin-right: 237px;
-}
+
 
 .information__block {
     display: flex;
@@ -87,6 +85,6 @@
 @media (max-width: 1200px) {
     .resource__link {
       display: flex;
-      font-size: 10px;
+      
     }
   }
