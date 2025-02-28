@@ -47,6 +47,7 @@
 
 .information__block {
     display: flex;
+    margin-left: auto;
     max-width: 754px;
 
 }
@@ -80,3 +81,12 @@
     margin-bottom: 22px;
 
 }
+
+
+
+@media (max-width: 1200px) {
+    .resource__link {
+      display: flex;
+      font-size: 10px;
+    }
+  }

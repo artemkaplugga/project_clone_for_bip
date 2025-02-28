@@ -30,9 +30,7 @@
 
 
 }
-.img__and__btn:hover{
-    filter: brightness(50%);
-}
+
 
 
 
@@ -68,12 +66,17 @@
     transition: transform 0.2s ease-in-out;
 }
 
+.categories__item:hover .categories__item__img {
+    filter: brightness(50%);
+}
+
 .categories__item:hover{
     transition: 0.2s ease;
     
 }
 
 .visit__btn{
+    display: none;
     position: absolute;
     color:white;
     font-size: 20px;
@@ -81,3 +84,10 @@
     left: 57px;
     right: 57px;
 }
+
+.categories__item:hover .visit__btn {
+    display: block;
+    color: white;
+}
+
+
