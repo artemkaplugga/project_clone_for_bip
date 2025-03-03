@@ -43,7 +43,7 @@
     max-width: 450px;
     height: 60px;
     background-color: white;
-    margin-left: 360px;
+    margin: 0 auto;
 
     border-radius: 12px;
     color: #5B5F62;

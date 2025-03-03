@@ -55,7 +55,7 @@
     font-weight: 500;
     line-height: 18px;
     margin-bottom: 22px;
-    margin-right: 114px;
+    margin-right: 105px;
 }
 
 .resource__link {
@@ -69,7 +69,7 @@
 .resource__link:hover {
     transition: 0.2s ease;
     color: #F66F4D;
- 
+
 }
 
 .category__inf2 {
@@ -84,7 +84,51 @@
 
 @media (max-width: 1200px) {
     .resource__link {
-      display: flex;
-      
+        display: flex;
+        font-size: 12px;
+        max-width: fit-content;
+
     }
-  }
+}
+
+@media (max-width: 960px) {
+    .category__inf {
+        margin-right: 90px;
+    }
+
+    }
+
+@media (max-width: 921px) {
+    .resource__link {
+        font-size: 10px;
+
+    }
+
+    .category__inf {
+        margin-right: 100px;
+
+    }
+
+}
+@media (max-width: 853px) {
+    .category__inf {
+        margin-right: 40px;
+    }
+}
+
+
+@media (max-width: 672px) {
+    .category__inf {
+        margin-right: 10px;
+        font-size: 14px;
+    }
+    .logo__feedbacks p {
+        font-size: 14px;
+    }
+
+    .enjoying__touring{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: )
