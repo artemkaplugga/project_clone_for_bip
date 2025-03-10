@@ -8,6 +8,8 @@
     border-radius: 30px;
     margin-top: 46px;
     margin-bottom: 61px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .email__block svg {
