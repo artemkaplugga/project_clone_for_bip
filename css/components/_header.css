@@ -18,7 +18,7 @@
     font-family: "Sen", serif;
     font-weight: 700;
     font-size: 20px;
-    margin-right: 72px;
+
 }
 
 .header__nav {
@@ -27,6 +27,7 @@
     font-weight: 400;
     font-size: 16px;
     color: #2E476B;
+    margin-left: 72px;
 }
 
 .where {
