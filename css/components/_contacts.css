@@ -129,12 +129,11 @@
 @media (max-width: 775px) {
     .information__block {
         grid-template-columns: repeat(2, 1fr);
-        flex-direction: column;
         gap: 20px;
         align-items: center;
         margin-right: auto;
-      justify-content: center;
         max-width: 360px;
+        padding-left: 25px;
     }
     .logo__information{
         object-fit: cover;
