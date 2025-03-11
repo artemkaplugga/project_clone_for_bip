@@ -2,10 +2,11 @@
     margin-top: 37px;
     display: flex;
     margin-bottom: 66px;
+    gap: 60px;
 }
 
 .customer__img {
-    margin-right: 175px;
+
     margin-top: 66px;
 }
 
@@ -17,7 +18,7 @@
     height: 8px;
     width: 67;
     border-radius: 4px;
-  
+
 }
 
 
@@ -39,9 +40,7 @@
     padding-left: 30px;
     padding-top: 32px;
     padding-right: 34px;
-    padding-bottom: 131px;
     max-width: 537px;
-    max-height: 283px;
     border-radius: 14px;
 
 
@@ -80,6 +79,7 @@
 
 .bottom__content {
     display: flex;
+    padding-bottom: 40px;
 }
 
 .buttons__feedback {
@@ -88,7 +88,7 @@
 
 }
 
-.buttons__feedback button img{
+.buttons__feedback button img {
     transition: transform 0.2s ease-in-out;
 }
 
@@ -101,3 +101,23 @@
     margin-left: auto;
     margin-top: auto;
 }
+
+
+@media (max-width: 1035px) {
+    .customer__about__us {
+        flex-direction: column;
+    }
+
+    .customer__img {
+        display: flex;
+        justify-content: center;
+    }
+
+    .customer__comment {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+}
+
